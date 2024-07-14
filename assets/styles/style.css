@@ -1,0 +1,23 @@
+.galery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+#img1 {
+    width: 800px;
+    height: 600px;
+}
+
+#previous, #next {
+    height: 2rem;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+}
